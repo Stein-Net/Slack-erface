@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3526B0B1BA9AE0900C4C1B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3526B0A1BA9AE0900C4C1B4 /* AppDelegate.swift */; };
+		F3526B0D1BA9AE0900C4C1B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3526B0C1BA9AE0900C4C1B4 /* ViewController.swift */; };
+		F3526B0F1BA9AE0900C4C1B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3526B0E1BA9AE0900C4C1B4 /* Images.xcassets */; };
+		F3526B121BA9AE0900C4C1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3526B101BA9AE0900C4C1B4 /* Main.storyboard */; };
+		F3526B1E1BA9AE0900C4C1B4 /* Slack_erfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3526B1D1BA9AE0900C4C1B4 /* Slack_erfaceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3526B181BA9AE0900C4C1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3526AFD1BA9AE0900C4C1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3526B041BA9AE0900C4C1B4;
+			remoteInfo = "Slack-erface";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3526B051BA9AE0900C4C1B4 /* Slack-erface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slack-erface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3526B091BA9AE0900C4C1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3526B0A1BA9AE0900C4C1B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3526B0C1BA9AE0900C4C1B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3526B0E1BA9AE0900C4C1B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3526B111BA9AE0900C4C1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3526B171BA9AE0900C4C1B4 /* Slack-erfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slack-erfaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3526B1C1BA9AE0900C4C1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3526B1D1BA9AE0900C4C1B4 /* Slack_erfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slack_erfaceTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3526B021BA9AE0900C4C1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3526B141BA9AE0900C4C1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3526AFC1BA9AE0900C4C1B4 = {
+			isa = PBXGroup;
+			children = (
+				F3526B071BA9AE0900C4C1B4 /* Slack-erface */,
+				F3526B1A1BA9AE0900C4C1B4 /* Slack-erfaceTests */,
+				F3526B061BA9AE0900C4C1B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3526B061BA9AE0900C4C1B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3526B051BA9AE0900C4C1B4 /* Slack-erface.app */,
+				F3526B171BA9AE0900C4C1B4 /* Slack-erfaceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3526B071BA9AE0900C4C1B4 /* Slack-erface */ = {
+			isa = PBXGroup;
+			children = (
+				F3526B0A1BA9AE0900C4C1B4 /* AppDelegate.swift */,
+				F3526B0C1BA9AE0900C4C1B4 /* ViewController.swift */,
+				F3526B0E1BA9AE0900C4C1B4 /* Images.xcassets */,
+				F3526B101BA9AE0900C4C1B4 /* Main.storyboard */,
+				F3526B081BA9AE0900C4C1B4 /* Supporting Files */,
+			);
+			path = "Slack-erface";
+			sourceTree = "<group>";
+		};
+		F3526B081BA9AE0900C4C1B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3526B091BA9AE0900C4C1B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3526B1A1BA9AE0900C4C1B4 /* Slack-erfaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3526B1D1BA9AE0900C4C1B4 /* Slack_erfaceTests.swift */,
+				F3526B1B1BA9AE0900C4C1B4 /* Supporting Files */,
+			);
+			path = "Slack-erfaceTests";
+			sourceTree = "<group>";
+		};
+		F3526B1B1BA9AE0900C4C1B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3526B1C1BA9AE0900C4C1B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3526B041BA9AE0900C4C1B4 /* Slack-erface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3526B211BA9AE0900C4C1B4 /* Build configuration list for PBXNativeTarget "Slack-erface" */;
+			buildPhases = (
+				F3526B011BA9AE0900C4C1B4 /* Sources */,
+				F3526B021BA9AE0900C4C1B4 /* Frameworks */,
+				F3526B031BA9AE0900C4C1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slack-erface";
+			productName = "Slack-erface";
+			productReference = F3526B051BA9AE0900C4C1B4 /* Slack-erface.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3526B161BA9AE0900C4C1B4 /* Slack-erfaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3526B241BA9AE0900C4C1B4 /* Build configuration list for PBXNativeTarget "Slack-erfaceTests" */;
+			buildPhases = (
+				F3526B131BA9AE0900C4C1B4 /* Sources */,
+				F3526B141BA9AE0900C4C1B4 /* Frameworks */,
+				F3526B151BA9AE0900C4C1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3526B191BA9AE0900C4C1B4 /* PBXTargetDependency */,
+			);
+			name = "Slack-erfaceTests";
+			productName = "Slack-erfaceTests";
+			productReference = F3526B171BA9AE0900C4C1B4 /* Slack-erfaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3526AFD1BA9AE0900C4C1B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "STEiN-Net";
+				TargetAttributes = {
+					F3526B041BA9AE0900C4C1B4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F3526B161BA9AE0900C4C1B4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F3526B041BA9AE0900C4C1B4;
+					};
+				};
+			};
+			buildConfigurationList = F3526B001BA9AE0900C4C1B4 /* Build configuration list for PBXProject "Slack-erface" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3526AFC1BA9AE0900C4C1B4;
+			productRefGroup = F3526B061BA9AE0900C4C1B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3526B041BA9AE0900C4C1B4 /* Slack-erface */,
+				F3526B161BA9AE0900C4C1B4 /* Slack-erfaceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3526B031BA9AE0900C4C1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3526B0F1BA9AE0900C4C1B4 /* Images.xcassets in Resources */,
+				F3526B121BA9AE0900C4C1B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3526B151BA9AE0900C4C1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3526B011BA9AE0900C4C1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3526B0D1BA9AE0900C4C1B4 /* ViewController.swift in Sources */,
+				F3526B0B1BA9AE0900C4C1B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3526B131BA9AE0900C4C1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3526B1E1BA9AE0900C4C1B4 /* Slack_erfaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3526B191BA9AE0900C4C1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3526B041BA9AE0900C4C1B4 /* Slack-erface */;
+			targetProxy = F3526B181BA9AE0900C4C1B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3526B101BA9AE0900C4C1B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3526B111BA9AE0900C4C1B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3526B1F1BA9AE0900C4C1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3526B201BA9AE0900C4C1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F3526B221BA9AE0900C4C1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Slack-erface/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3526B231BA9AE0900C4C1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Slack-erface/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3526B251BA9AE0900C4C1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Slack-erfaceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slack-erface.app/Contents/MacOS/Slack-erface";
+			};
+			name = Debug;
+		};
+		F3526B261BA9AE0900C4C1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Slack-erfaceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slack-erface.app/Contents/MacOS/Slack-erface";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3526B001BA9AE0900C4C1B4 /* Build configuration list for PBXProject "Slack-erface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3526B1F1BA9AE0900C4C1B4 /* Debug */,
+				F3526B201BA9AE0900C4C1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3526B211BA9AE0900C4C1B4 /* Build configuration list for PBXNativeTarget "Slack-erface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3526B221BA9AE0900C4C1B4 /* Debug */,
+				F3526B231BA9AE0900C4C1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3526B241BA9AE0900C4C1B4 /* Build configuration list for PBXNativeTarget "Slack-erfaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3526B251BA9AE0900C4C1B4 /* Debug */,
+				F3526B261BA9AE0900C4C1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3526AFD1BA9AE0900C4C1B4 /* Project object */;
+}
