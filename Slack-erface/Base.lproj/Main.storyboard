@@ -698,6 +698,16 @@
                                     <action selector="sayIt:" target="XfG-lQ-9wD" id="B7f-5e-jeO"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="odF-5o-WFq">
+                                <rect key="frame" x="20" y="17" width="116" height="25"/>
+                                <buttonCell key="cell" type="roundTextured" title="Start Announcer" bezelStyle="texturedRounded" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="KMd-4Q-hMq">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="startTimer:" target="XfG-lQ-9wD" id="qvz-f7-wpx"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>

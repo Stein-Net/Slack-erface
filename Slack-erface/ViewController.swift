@@ -25,7 +25,9 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
     }
-
+    @IBAction func startTimer(sender: AnyObject) {
+        announce.startTimer()
+    }
     @IBAction func sayIt(sender: AnyObject) {
         message = speechText.stringValue
         if channelText.stringValue == "" {}
