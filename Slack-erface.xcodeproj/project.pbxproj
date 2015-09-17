@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F302B8BE1BAAE53E00444F60 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302B8BD1BAAE53E00444F60 /* Connector.swift */; };
 		F3526B0B1BA9AE0900C4C1B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3526B0A1BA9AE0900C4C1B4 /* AppDelegate.swift */; };
 		F3526B0D1BA9AE0900C4C1B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3526B0C1BA9AE0900C4C1B4 /* ViewController.swift */; };
 		F3526B0F1BA9AE0900C4C1B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3526B0E1BA9AE0900C4C1B4 /* Images.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F302B8BD1BAAE53E00444F60 /* Connector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
 		F3526B051BA9AE0900C4C1B4 /* Slack-erface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slack-erface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3526B091BA9AE0900C4C1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3526B0A1BA9AE0900C4C1B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				F3526B0A1BA9AE0900C4C1B4 /* AppDelegate.swift */,
+				F302B8BD1BAAE53E00444F60 /* Connector.swift */,
 				F3526B0C1BA9AE0900C4C1B4 /* ViewController.swift */,
 				F3526B0E1BA9AE0900C4C1B4 /* Images.xcassets */,
 				F3526B101BA9AE0900C4C1B4 /* Main.storyboard */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F302B8BE1BAAE53E00444F60 /* Connector.swift in Sources */,
 				F3526B0D1BA9AE0900C4C1B4 /* ViewController.swift in Sources */,
 				F3526B0B1BA9AE0900C4C1B4 /* AppDelegate.swift in Sources */,
 			);
@@ -400,6 +404,7 @@
 				F3526B231BA9AE0900C4C1B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3526B241BA9AE0900C4C1B4 /* Build configuration list for PBXNativeTarget "Slack-erfaceTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				F3526B261BA9AE0900C4C1B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
