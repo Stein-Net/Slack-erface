@@ -11,6 +11,7 @@ import Foundation
 class Connector {
     
     init(){}
+    var userDefaults = NSUserDefaults.standardUserDefaults()
     var text = "This is posted to <#general> and comes from *monkey-bot*."
     var channel = "#general"
     var username = "announce-bot"

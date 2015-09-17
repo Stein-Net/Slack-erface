@@ -15,7 +15,8 @@ class ViewController: NSViewController {
     var channel = "#general"
     var message = ""
     var connect = Connector()
-    
+    var announce = Announcer()
+    var userDefaults = NSUserDefaults.standardUserDefaults()
     
     @IBOutlet weak var channelText: NSTextField!
     @IBOutlet weak var speechText: NSTextField!
