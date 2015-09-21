@@ -7,19 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A7218F8E2600E234F0B9FE4 /* Pods_Slack_erface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CF7F8E5C941B7AA1932708 /* Pods_Slack_erface.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F302B8BE1BAAE53E00444F60 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302B8BD1BAAE53E00444F60 /* Connector.swift */; };
 		F302B8C01BAB06E300444F60 /* Announcer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302B8BF1BAB06E300444F60 /* Announcer.swift */; };
+		F315F0891BAC59D500A992FA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315F0881BAC59D500A992FA /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		F3375E4A1BB052800062CC9B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3375E3E1BB052660062CC9B /* Alamofire.framework */; };
+		F3375E4B1BB052800062CC9B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F3375E3E1BB052660062CC9B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F3526B0B1BA9AE0900C4C1B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3526B0A1BA9AE0900C4C1B4 /* AppDelegate.swift */; };
 		F3526B0D1BA9AE0900C4C1B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3526B0C1BA9AE0900C4C1B4 /* ViewController.swift */; };
 		F3526B0F1BA9AE0900C4C1B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3526B0E1BA9AE0900C4C1B4 /* Images.xcassets */; };
 		F3526B121BA9AE0900C4C1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3526B101BA9AE0900C4C1B4 /* Main.storyboard */; };
 		F3526B1E1BA9AE0900C4C1B4 /* Slack_erfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3526B1D1BA9AE0900C4C1B4 /* Slack_erfaceTests.swift */; };
-		F39E26001BAB444B00DD2354 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39E25FF1BAB444B00DD2354 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		F39E26021BAB449700DD2354 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39E26011BAB449700DD2354 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F3375E3B1BB052660062CC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3375E331BB052660062CC9B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		F3375E3D1BB052660062CC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3375E331BB052660062CC9B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		F3375E3F1BB052660062CC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3375E331BB052660062CC9B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		F3375E411BB052660062CC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3375E331BB052660062CC9B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		F3375E431BB052660062CC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3375E331BB052660062CC9B /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		F3375E4C1BB052800062CC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3375E331BB052660062CC9B /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD67C0A1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
 		F3526B181BA9AE0900C4C1B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F3526AFD1BA9AE0900C4C1B4 /* Project object */;
@@ -29,12 +71,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F3375E4E1BB052800062CC9B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F3375E4B1BB052800062CC9B /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		11CF7F8E5C941B7AA1932708 /* Pods_Slack_erface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slack_erface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F1B22888B9FBF36C10484F4 /* Pods-Slack-erface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack-erface.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slack-erface/Pods-Slack-erface.debug.xcconfig"; sourceTree = "<group>"; };
-		B7EE1BD12315F9EEFEDDA97A /* Pods-Slack-erface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack-erface.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slack-erface/Pods-Slack-erface.release.xcconfig"; sourceTree = "<group>"; };
+		0B64DDACC8AD6A99A9381954 /* Pods_Slack_erface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slack_erface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		897A7FE732BF33C48C1DE9A0 /* Pods-Slack-erface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack-erface.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slack-erface/Pods-Slack-erface.debug.xcconfig"; sourceTree = "<group>"; };
+		AEE253BFDA500BCCDF2A3F22 /* Pods-Slack-erface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack-erface.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slack-erface/Pods-Slack-erface.release.xcconfig"; sourceTree = "<group>"; };
 		F302B8BD1BAAE53E00444F60 /* Connector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
 		F302B8BF1BAB06E300444F60 /* Announcer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Announcer.swift; sourceTree = "<group>"; };
+		F315F0881BAC59D500A992FA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F3375E331BB052660062CC9B /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		F3526B051BA9AE0900C4C1B4 /* Slack-erface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slack-erface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3526B091BA9AE0900C4C1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3526B0A1BA9AE0900C4C1B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +102,6 @@
 		F3526B171BA9AE0900C4C1B4 /* Slack-erfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slack-erfaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3526B1C1BA9AE0900C4C1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3526B1D1BA9AE0900C4C1B4 /* Slack_erfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slack_erfaceTests.swift; sourceTree = "<group>"; };
-		F39E25FF1BAB444B00DD2354 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug/Pods-Slack-erface/SwiftyJSON.framework"; sourceTree = "<group>"; };
-		F39E26011BAB449700DD2354 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F39E26001BAB444B00DD2354 /* SwiftyJSON.framework in Frameworks */,
-				6A7218F8E2600E234F0B9FE4 /* Pods_Slack_erface.framework in Frameworks */,
+				F3375E4A1BB052800062CC9B /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,32 +123,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33BCA4BA82860C7ADA6C43B4 /* Frameworks */ = {
+		34FB13C56A403E73C9173CE0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F39E25FF1BAB444B00DD2354 /* SwiftyJSON.framework */,
-				11CF7F8E5C941B7AA1932708 /* Pods_Slack_erface.framework */,
+				897A7FE732BF33C48C1DE9A0 /* Pods-Slack-erface.debug.xcconfig */,
+				AEE253BFDA500BCCDF2A3F22 /* Pods-Slack-erface.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1AC4B50FD01CF6F754AF7D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B64DDACC8AD6A99A9381954 /* Pods_Slack_erface.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9A8138F12E932E33821AD315 /* Pods */ = {
+		F3375E341BB052660062CC9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F1B22888B9FBF36C10484F4 /* Pods-Slack-erface.debug.xcconfig */,
-				B7EE1BD12315F9EEFEDDA97A /* Pods-Slack-erface.release.xcconfig */,
+				F3375E3C1BB052660062CC9B /* Alamofire.framework */,
+				F3375E3E1BB052660062CC9B /* Alamofire.framework */,
+				F3375E401BB052660062CC9B /* Alamofire.framework */,
+				F3375E421BB052660062CC9B /* Alamofire iOS Tests.xctest */,
+				F3375E441BB052660062CC9B /* Alamofire OSX Tests.xctest */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F3526AFC1BA9AE0900C4C1B4 = {
 			isa = PBXGroup;
 			children = (
+				F3375E331BB052660062CC9B /* Alamofire.xcodeproj */,
 				F3526B071BA9AE0900C4C1B4 /* Slack-erface */,
 				F3526B1A1BA9AE0900C4C1B4 /* Slack-erfaceTests */,
 				F3526B061BA9AE0900C4C1B4 /* Products */,
-				9A8138F12E932E33821AD315 /* Pods */,
-				33BCA4BA82860C7ADA6C43B4 /* Frameworks */,
+				34FB13C56A403E73C9173CE0 /* Pods */,
+				C1AC4B50FD01CF6F754AF7D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,7 +176,7 @@
 		F3526B071BA9AE0900C4C1B4 /* Slack-erface */ = {
 			isa = PBXGroup;
 			children = (
-				F39E26011BAB449700DD2354 /* SwiftyJSON.swift */,
+				F315F0881BAC59D500A992FA /* SwiftyJSON.swift */,
 				F3526B0A1BA9AE0900C4C1B4 /* AppDelegate.swift */,
 				F302B8BD1BAAE53E00444F60 /* Connector.swift */,
 				F302B8BF1BAB06E300444F60 /* Announcer.swift */,
@@ -153,16 +220,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3526B211BA9AE0900C4C1B4 /* Build configuration list for PBXNativeTarget "Slack-erface" */;
 			buildPhases = (
-				AE44F95316C0FDF6A760C034 /* Check Pods Manifest.lock */,
+				85A14C742E20FD8D5D5DC26E /* Check Pods Manifest.lock */,
 				F3526B011BA9AE0900C4C1B4 /* Sources */,
 				F3526B021BA9AE0900C4C1B4 /* Frameworks */,
 				F3526B031BA9AE0900C4C1B4 /* Resources */,
-				D3DE0194B8BB75611F178718 /* Embed Pods Frameworks */,
-				8FFC40ACE3BA42097679B5C5 /* Copy Pods Resources */,
+				7D8036878BA198C004118C3A /* Embed Pods Frameworks */,
+				3AB10AD7FE9E82913C7FFF03 /* Copy Pods Resources */,
+				F3375E4E1BB052800062CC9B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F3375E4D1BB052800062CC9B /* PBXTargetDependency */,
 			);
 			name = "Slack-erface";
 			productName = "Slack-erface";
@@ -193,7 +262,9 @@
 		F3526AFD1BA9AE0900C4C1B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "STEiN-Net";
 				TargetAttributes = {
 					F3526B041BA9AE0900C4C1B4 = {
@@ -216,6 +287,12 @@
 			mainGroup = F3526AFC1BA9AE0900C4C1B4;
 			productRefGroup = F3526B061BA9AE0900C4C1B4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F3375E341BB052660062CC9B /* Products */;
+					ProjectRef = F3375E331BB052660062CC9B /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F3526B041BA9AE0900C4C1B4 /* Slack-erface */,
@@ -223,6 +300,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F3375E3C1BB052660062CC9B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F3375E3B1BB052660062CC9B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3375E3E1BB052660062CC9B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F3375E3D1BB052660062CC9B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3375E401BB052660062CC9B /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F3375E3F1BB052660062CC9B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3375E421BB052660062CC9B /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = F3375E411BB052660062CC9B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3375E441BB052660062CC9B /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = F3375E431BB052660062CC9B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		F3526B031BA9AE0900C4C1B4 /* Resources */ = {
@@ -244,7 +359,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8FFC40ACE3BA42097679B5C5 /* Copy Pods Resources */ = {
+		3AB10AD7FE9E82913C7FFF03 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,22 +374,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slack-erface/Pods-Slack-erface-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AE44F95316C0FDF6A760C034 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D3DE0194B8BB75611F178718 /* Embed Pods Frameworks */ = {
+		7D8036878BA198C004118C3A /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,6 +389,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slack-erface/Pods-Slack-erface-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		85A14C742E20FD8D5D5DC26E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -299,7 +414,7 @@
 				F302B8BE1BAAE53E00444F60 /* Connector.swift in Sources */,
 				F3526B0D1BA9AE0900C4C1B4 /* ViewController.swift in Sources */,
 				F3526B0B1BA9AE0900C4C1B4 /* AppDelegate.swift in Sources */,
-				F39E26021BAB449700DD2354 /* SwiftyJSON.swift in Sources */,
+				F315F0891BAC59D500A992FA /* SwiftyJSON.swift in Sources */,
 				F302B8C01BAB06E300444F60 /* Announcer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +430,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F3375E4D1BB052800062CC9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire OSX";
+			targetProxy = F3375E4C1BB052800062CC9B /* PBXContainerItemProxy */;
+		};
 		F3526B191BA9AE0900C4C1B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F3526B041BA9AE0900C4C1B4 /* Slack-erface */;
@@ -355,6 +475,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,32 +537,36 @@
 		};
 		F3526B221BA9AE0900C4C1B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F1B22888B9FBF36C10484F4 /* Pods-Slack-erface.debug.xcconfig */;
+			baseConfigurationReference = 897A7FE732BF33C48C1DE9A0 /* Pods-Slack-erface.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug/Pods-Slack-erface",
 				);
 				INFOPLIST_FILE = "Slack-erface/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.stein13.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		F3526B231BA9AE0900C4C1B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7EE1BD12315F9EEFEDDA97A /* Pods-Slack-erface.release.xcconfig */;
+			baseConfigurationReference = AEE253BFDA500BCCDF2A3F22 /* Pods-Slack-erface.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug/Pods-Slack-erface",
 				);
 				INFOPLIST_FILE = "Slack-erface/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.stein13.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -461,6 +586,7 @@
 				);
 				INFOPLIST_FILE = "Slack-erfaceTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.stein13.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slack-erface.app/Contents/MacOS/Slack-erface";
 			};
@@ -477,6 +603,7 @@
 				);
 				INFOPLIST_FILE = "Slack-erfaceTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.stein13.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slack-erface.app/Contents/MacOS/Slack-erface";
 			};

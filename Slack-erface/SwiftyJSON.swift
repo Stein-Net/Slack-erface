@@ -66,8 +66,8 @@ public struct JSON {
     */
     public init(data:NSData, options opt: NSJSONReadingOptions = .AllowFragments, error: NSErrorPointer = nil) {
         do {
-        let object: AnyObject = try NSJSONSerialization.JSONObjectWithData(data, options: opt)
-        self.init(object)
+            let object: AnyObject = try NSJSONSerialization.JSONObjectWithData(data, options: opt)
+            self.init(object)
         } catch let aError as NSError {
             if error != nil {
                 error.memory = aError
@@ -610,15 +610,15 @@ extension JSON: Swift.RawRepresentable {
     }
     
     public func rawData(options opt: NSJSONWritingOptions = NSJSONWritingOptions(rawValue: 0)) throws -> NSData {
-    return try NSJSONSerialization.dataWithJSONObject(self.object, options: opt)
+        return try NSJSONSerialization.dataWithJSONObject(self.object, options: opt)
     }
     
     public func rawString(encoding: UInt = NSUTF8StringEncoding, options opt: NSJSONWritingOptions = .PrettyPrinted) -> String? {
         switch self.type {
         case .Array, .Dictionary:
             do {
-            let data = try self.rawData(options: opt)
-            return NSString(data: data, encoding: encoding) as? String
+                let data = try self.rawData(options: opt)
+                return NSString(data: data, encoding: encoding) as? String
             } catch _ {
                 return nil
             }

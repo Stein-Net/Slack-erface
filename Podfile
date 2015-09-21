@@ -2,7 +2,7 @@
 # platform :ios, '6.0'
 use_frameworks!
 target 'Slack-erface' do
-pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+pod 'Alamofire', '~> 2.0'
 end
 
 target 'Slack-erfaceTests' do

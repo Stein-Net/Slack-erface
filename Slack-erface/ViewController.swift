@@ -32,7 +32,7 @@ class ViewController: NSViewController {
         message = speechText.stringValue
         if channelText.stringValue == "" {}
         else { channel = channelText.stringValue }
-        connect.post(message, p_chan: channel)
+        connect.post()
     }
     override var representedObject: AnyObject? {
         didSet {

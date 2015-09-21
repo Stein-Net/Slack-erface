@@ -7,10 +7,9 @@
 //
 
 import Foundation
-
 class Announcer: NSObject {
     override init(){}
-    var connect = Connector()
+    //var connect = Connector()
     
     //Functions will be below message array
     let messages = [
@@ -24,36 +23,37 @@ class Announcer: NSObject {
     ]
     
     func announce() {
-        connect.announce("#testing", p_mess: getAnnouncement())
-        
+       // connect.post(getAnnouncement(), p_chan: "#testing")
     }
     
     func startTimer() {
-        var announceTimer = NSTimer.scheduledTimerWithTimeInterval(5.0, target: self, selector: Selector("announce"), userInfo: nil, repeats: true)
-        
+        var announceTimer = NSTimer.scheduledTimerWithTimeInterval(900.0, target: self, selector: Selector("announce"), userInfo: nil, repeats: true)
+       
 
     }
     
-    func getAnnouncement() -> Dictionary<String, String> {
+    func getAnnouncement() -> JSON {
         let randomIndex = Int(arc4random_uniform(UInt32(messages.count)))
-        var m = messages[randomIndex]
+        let m = messages[randomIndex]
         let randomHex = Int(arc4random_uniform(UInt32(colors.count)))
-        var c = colors[randomHex]
+        let c = colors[randomHex]
         return makeAnnouncement(m, colorHex: c)
         
     }
     
     
-    func makeAnnouncement(message: String, colorHex: String) -> Dictionary<String, String> {
-        var ret = "[{\"title\":\"Announcement\", \"text\":\"\(message)\", \"color\": \"\(colorHex)\"}]"
+    func makeAnnouncement(message: String, colorHex: String) -> JSON {
+        let ret = "[{\"title\":\"Announcement\", \"text\":\"\(message)\", \"color\": \"\(colorHex)\"}]"
    
         let jsonObject = [
         "title": "Announcement",
         "text": message,
         "color": colorHex
-        ] as Dictionary<String, String>
-
-
+        ] as JSON
+        
+        if let dataFromString = ret.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: false) {
+            let json = JSON(data: dataFromString)
+        }
         return jsonObject;
         // API Example
         /* {

@@ -10,59 +10,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Slack-erface/Connector.swift"
-            timestampString = "464186471.202161"
+            timestampString = "464283113.71233"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "post(_:p_chan:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Slack-erface/Connector.swift"
-            timestampString = "464197516.889561"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "announce(_:p_mess:)"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "announce(_:p_chan:)"
             landmarkType = "5">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Slack_erface.Connector.announce (Slack_erface.Connector)(Swift.String, p_mess : Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()"
+                  symbolName = "Slack_erface.Connector.announce (Slack_erface.Connector)(Slack_erface.JSON, p_chan : Swift.String) -&gt; ()"
                   moduleName = "Slack-erface"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gregory/Desktop/STEiN/Mac/Slack-erface/Slack-erface/Connector.swift"
-                  timestampString = "464208215.168071"
+                  timestampString = "464283683.760752"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "2464">
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "802">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Slack_erface.Connector.(announce (Slack_erface.Connector) -&gt; (Swift.String, p_mess : Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()).(closure #1)"
+                  symbolName = "Slack_erface.Connector.(announce (Slack_erface.Connector) -&gt; (Slack_erface.JSON, p_chan : Swift.String) -&gt; ()).(closure #1)"
                   moduleName = "Slack-erface"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gregory/Desktop/STEiN/Mac/Slack-erface/Slack-erface/Connector.swift"
-                  timestampString = "464208215.168239"
+                  timestampString = "464283683.760943"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "23">
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "534">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -70,16 +54,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Slack-erface/Connector.swift"
-            timestampString = "464207844.940562"
+            timestampString = "464283113.71233"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "announce(_:p_mess:)"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "announce(_:p_chan:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Slack-erface/Connector.swift"
+            timestampString = "464282936.689882"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "post()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Slack-erface/Connector.swift"
+            timestampString = "464283682.408457"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "post()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Slack-erface/Connector.swift"
+            timestampString = "464283682.408457"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "post()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
